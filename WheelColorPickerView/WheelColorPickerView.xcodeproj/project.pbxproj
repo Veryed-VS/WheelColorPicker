@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		C32748A61C47299F00C1E39F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748A51C47299F00C1E39F /* main.m */; };
 		C32748A91C47299F00C1E39F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748A81C47299F00C1E39F /* AppDelegate.m */; };
-		C32748AC1C47299F00C1E39F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748AB1C47299F00C1E39F /* ViewController.m */; };
-		C32748AF1C47299F00C1E39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748AD1C47299F00C1E39F /* Main.storyboard */; };
 		C32748B11C47299F00C1E39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32748B01C47299F00C1E39F /* Assets.xcassets */; };
 		C32748B41C47299F00C1E39F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748B21C47299F00C1E39F /* LaunchScreen.storyboard */; };
+		C32748C01C472A2F00C1E39F /* BTWColorPickerWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748BD1C472A2F00C1E39F /* BTWColorPickerWheel.m */; };
+		C32748C11C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748BF1C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.m */; };
+		C32748C71C472A4000C1E39F /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = C32748C31C472A4000C1E39F /* colorPickerKnob.png */; };
+		C32748C81C472A4000C1E39F /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C32748C41C472A4000C1E39F /* colorPickerKnob@2x.png */; };
+		C32748C91C472A4000C1E39F /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C32748C51C472A4000C1E39F /* pickerColorWheel.png */; };
+		C32748CA1C472A4000C1E39F /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C32748C61C472A4000C1E39F /* pickerColorWheel@2x.png */; };
+		C32748CE1C472A6000C1E39F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748CC1C472A6000C1E39F /* ViewController.m */; };
+		C32748CF1C472A6000C1E39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32748CD1C472A6000C1E39F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,20 @@
 		C32748A51C47299F00C1E39F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C32748A71C47299F00C1E39F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C32748A81C47299F00C1E39F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C32748AA1C47299F00C1E39F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C32748AB1C47299F00C1E39F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C32748AE1C47299F00C1E39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32748B01C47299F00C1E39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32748B31C47299F00C1E39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32748B51C47299F00C1E39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32748BC1C472A2F00C1E39F /* BTWColorPickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWColorPickerWheel.h; sourceTree = "<group>"; };
+		C32748BD1C472A2F00C1E39F /* BTWColorPickerWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWColorPickerWheel.m; sourceTree = "<group>"; };
+		C32748BE1C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		C32748BF1C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		C32748C31C472A4000C1E39F /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
+		C32748C41C472A4000C1E39F /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
+		C32748C51C472A4000C1E39F /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		C32748C61C472A4000C1E39F /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
+		C32748CB1C472A6000C1E39F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C32748CC1C472A6000C1E39F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C32748CD1C472A6000C1E39F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		C32748981C47299F00C1E39F = {
 			isa = PBXGroup;
 			children = (
+				C32748BB1C472A2200C1E39F /* BTWColorPickerView */,
 				C32748A31C47299F00C1E39F /* WheelColorPickerView */,
 				C32748A21C47299F00C1E39F /* Products */,
 			);
@@ -60,9 +75,9 @@
 			children = (
 				C32748A71C47299F00C1E39F /* AppDelegate.h */,
 				C32748A81C47299F00C1E39F /* AppDelegate.m */,
-				C32748AA1C47299F00C1E39F /* ViewController.h */,
-				C32748AB1C47299F00C1E39F /* ViewController.m */,
-				C32748AD1C47299F00C1E39F /* Main.storyboard */,
+				C32748CB1C472A6000C1E39F /* ViewController.h */,
+				C32748CC1C472A6000C1E39F /* ViewController.m */,
+				C32748CD1C472A6000C1E39F /* Main.storyboard */,
 				C32748B01C47299F00C1E39F /* Assets.xcassets */,
 				C32748B21C47299F00C1E39F /* LaunchScreen.storyboard */,
 				C32748B51C47299F00C1E39F /* Info.plist */,
@@ -77,6 +92,29 @@
 				C32748A51C47299F00C1E39F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32748BB1C472A2200C1E39F /* BTWColorPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C32748C21C472A3500C1E39F /* Image */,
+				C32748BC1C472A2F00C1E39F /* BTWColorPickerWheel.h */,
+				C32748BD1C472A2F00C1E39F /* BTWColorPickerWheel.m */,
+				C32748BE1C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.h */,
+				C32748BF1C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.m */,
+			);
+			name = BTWColorPickerView;
+			sourceTree = "<group>";
+		};
+		C32748C21C472A3500C1E39F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C32748C31C472A4000C1E39F /* colorPickerKnob.png */,
+				C32748C41C472A4000C1E39F /* colorPickerKnob@2x.png */,
+				C32748C51C472A4000C1E39F /* pickerColorWheel.png */,
+				C32748C61C472A4000C1E39F /* pickerColorWheel@2x.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32748CF1C472A6000C1E39F /* Main.storyboard in Resources */,
+				C32748C81C472A4000C1E39F /* colorPickerKnob@2x.png in Resources */,
+				C32748C91C472A4000C1E39F /* pickerColorWheel.png in Resources */,
 				C32748B41C47299F00C1E39F /* LaunchScreen.storyboard in Resources */,
+				C32748C71C472A4000C1E39F /* colorPickerKnob.png in Resources */,
 				C32748B11C47299F00C1E39F /* Assets.xcassets in Resources */,
-				C32748AF1C47299F00C1E39F /* Main.storyboard in Resources */,
+				C32748CA1C472A4000C1E39F /* pickerColorWheel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32748AC1C47299F00C1E39F /* ViewController.m in Sources */,
+				C32748C11C472A2F00C1E39F /* BTWColorPickerBrightnessSlider.m in Sources */,
 				C32748A91C47299F00C1E39F /* AppDelegate.m in Sources */,
 				C32748A61C47299F00C1E39F /* main.m in Sources */,
+				C32748C01C472A2F00C1E39F /* BTWColorPickerWheel.m in Sources */,
+				C32748CE1C472A6000C1E39F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C32748AD1C47299F00C1E39F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C32748AE1C47299F00C1E39F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C32748B21C47299F00C1E39F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
